@@ -1,34 +1,34 @@
-print("Select operation.")
-print("1.Add")
-print("2.Subtract")
-print("3.Multiply")
-print("4.Divide")
+def calculator(num1, num2, operation):
+    if num1 != '':
+        if operation != '':
+            if num2 != '':
+                if operation == "+":
+                    return num1 + num2
+                elif operation == "-":
+                    return num1 - num2
+                elif operation == "/":
+                    return num1 / num2
+                elif operation == "*":
+                    return num1 * num2
+                else:
+                    return "Введите одну из предложеных операций!!"
+            else:
+                return "Введите второе число!"
+        else:
+            return "Введите операцию!"
+    else:
+        return "Введите первое число!"
 
 
-choice = input("Enter choice(1/2/3/4): ")
-
-
-
-integero = '1234567890'
-def check(num1, num2):
-    if num1 and num2 not in integero or num1 not in integero or num2 not in integero:
-        print('not int')
-        breakpoint()
-    if choice == '1':
-        print(float(num1) + float(num2))
-        breakpoint()
-    elif choice == '2':
-        print(float(num1) - float(num2))
-        breakpoint()
-    elif choice == '3':
-        print(float(num1) * float(num2))
-        breakpoint()
-    elif choice == '4':
-        print(float(num1) / float(num2))
-        breakpoint()
-    elif choice != '1' or '2' or '3' or '4':
-        print('choice error')
-        breakpoint()
-    print('calculator done')
-
-check(input(), input())
+try:
+    n1 = int(input("Введите первое число"))
+    op = input("Введите математический знак:\n + для сложения чисел,"
+               "\n  - для вычитания чисел, \n / для деления чисел, \n * для умножения чисел")
+    n2 = int((input("Введите второе число")))
+    print(type(n1), type(n2))
+except:
+    n1 = int(input("ВВедите число а не строку!!!"))
+    op = input("Введите математический знак:\n + для сложения чисел,"
+               "\n  - для вычитания чисел, \n / для деления чисел, \n * для умножения чисел")
+    n2 = int(input("ВВедите число а не строку!!!!"))
+    print(type(n2), type(n1))
