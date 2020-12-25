@@ -1,0 +1,424 @@
+Index: 1.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/1.py b/2Homework improved calculator.py
+rename from 1.py
+rename to 2Homework improved calculator.py
+--- a/1.py	(revision 4bfd19763ea67d92c25701167c429aa4966946ca)
++++ b/2Homework improved calculator.py	(date 1608825962007)
+@@ -1,27 +1,31 @@
+ print("Select operation.")
+-print("1.Add")
+-print("2.Subtract")
+-print("3.Multiply")
+-print("4.Divide")
++print("1.Плюс")
++print("2.Минус")
++print("3.Умножение")
++print("4.Деление")
+ 
+-choice = input("Enter choice(1/2/3/4): ")
++choice = input("Enter choice (1/2/3/4): ")
+ 
+-
+-def check(num1, num2):
+-    if num1.isnumeric() == False or num2.isnumeric() == False:
++while True:
++    number1 = input('')
++    if number1 == "stop":
++        break
++    number2 = input('')
++    if number1.isnumeric() == False or number2.isnumeric() == False:
+         print('not int')
+-        return
+-    if choice == '1' and num1.isnumeric() and num2.isnumeric():
+-        print(float(num1) + float(num2))
+-    elif choice == '2' and num1.isnumeric() and num2.isnumeric():
+-        print(float(num1) - float(num2))
+-    elif choice == '3' and num1.isnumeric() and num2.isnumeric():
+-        print(float(num1) * float(num2))
+-    elif choice == '4' and num1.isnumeric() and num2.isnumeric():
+-        print(float(num1) / float(num2))
++    if choice == '1' and number1.isnumeric() and number2.isnumeric():
++        print(float(number1) + float(number2))
++    elif choice == '2' and number1.isnumeric() and number2.isnumeric():
++        print(float(number1) - float(number2))
++    elif choice == '3' and number1.isnumeric() and number2.isnumeric():
++        print(float(number1) * float(number2))
++    elif choice == '4' and number1.isnumeric() and number2.isnumeric():
++        print(float(number1) / float(number2))
+     elif choice != '1' or '2' or '3' or '4':
+         print('choice error')
+-    print('calculator done')
+ 
+ 
+-check(input(), input())
+\ No newline at end of file
++
++# check = "stop"
++# while check != input(""):
++#    continue
+Index: 2 python.py
+===================================================================
+diff --git a/2 python.py b/2 python.py
+deleted file mode 100644
+--- a/2 python.py	(revision 4bfd19763ea67d92c25701167c429aa4966946ca)
++++ /dev/null	(revision 4bfd19763ea67d92c25701167c429aa4966946ca)
+@@ -1,7 +0,0 @@
+-import calendar
+-
+-print(calendar.calendar(8))
+-
+-
+-calendar.itermonthdates(2020, 2)
+-print()
+\ No newline at end of file
+Index: больше или меньше.py
+===================================================================
+diff --git a/больше или меньше.py b/больше или меньше.py
+deleted file mode 100644
+--- a/больше или меньше.py	(revision 4bfd19763ea67d92c25701167c429aa4966946ca)
++++ /dev/null	(revision 4bfd19763ea67d92c25701167c429aa4966946ca)
+@@ -1,32 +0,0 @@
+-print("Select operation.")
+-print("1.Add")
+-print("2.Subtract")
+-print("3.Multiply")
+-print("4.Divide")
+-
+-
+-choice = input("Enter choice(1/2/3/4): ")
+-
+-
+-
+-integero = '1234567890'
+-
+-
+-
+-def check(num1, num2):
+-    if num1 and num2 not in integero or num1 not in integero or num2 not in integero:
+-        print('not int')
+-        return
+-    if choice == '1':
+-        print(float(num1) + float(num2))
+-    elif choice == '2':
+-        print(float(num1) - float(num2))
+-    elif choice == '3':
+-        print(float(num1) * float(num2))
+-    elif choice == '4':
+-        print(float(num1) / float(num2))
+-    elif choice != '1' or '2' or '3' or '4':
+-        print('choice error')
+-    print('calculator done')
+-
+-check(input(), input())
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"5ff4f638-0cc7-4de7-b583-132f5ae411db\" name=\"Default Changelist\" comment=\"\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1lYLAk1JxMKONfS4NRtpYAs2QZM\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"autoscrollFromSource\" value=\"true\" />\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"last_opened_file_path\" value=\"D:/программы python\" />\r\n    <property name=\"restartRequiresConfirmation\" value=\"false\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"D:\\программы python\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Python.calendar\">\r\n    <configuration name=\"больше или меньше\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"pythonProject\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/больше или меньше.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"1\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"pythonProject\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/1.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"1homework калькулятор\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"pythonProject\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/1homework калькулятор.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"фдылова\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"pythonProject\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/фдылова.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"calendar\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"pythonProject\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/calendar.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Python.calendar\" />\r\n        <item itemvalue=\"Python.1homework калькулятор\" />\r\n        <item itemvalue=\"Python.больше или меньше\" />\r\n        <item itemvalue=\"Python.1\" />\r\n        <item itemvalue=\"Python.фдылова\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"5ff4f638-0cc7-4de7-b583-132f5ae411db\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1607768937645</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1607768937645</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 4bfd19763ea67d92c25701167c429aa4966946ca)
++++ b/.idea/workspace.xml	(date 1608895695929)
+@@ -1,7 +1,14 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="5ff4f638-0cc7-4de7-b583-132f5ae411db" name="Default Changelist" comment="" />
++    <list default="true" id="5ff4f638-0cc7-4de7-b583-132f5ae411db" name="Default Changelist" comment="commit">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/2Homework improved calculator.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/1homework калькулятор.py" beforeDir="false" afterPath="$PROJECT_DIR$/1homework калькулятор.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/2 python.py" beforeDir="false" afterPath="$PROJECT_DIR$/2 python.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/calendar.py" beforeDir="false" afterPath="$PROJECT_DIR$/calendar.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/больше или меньше.py" beforeDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -57,7 +64,7 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++    <configuration name="1homework калькулятор" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="pythonProject" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+@@ -69,7 +76,7 @@
+       <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1homework калькулятор.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -78,7 +85,7 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="1homework калькулятор" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++    <configuration name="2Homework improved calculator (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="pythonProject" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+@@ -90,7 +97,7 @@
+       <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1homework калькулятор.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2Homework improved calculator.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -99,7 +106,7 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="фдылова" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++    <configuration name="3Homework " type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="pythonProject" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+@@ -111,7 +118,7 @@
+       <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/фдылова.py" />
++      <option name="SCRIPT_NAME" value="C:\Users\Lenovo\PycharmProjects\pythonProject\3Homework .py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -144,10 +151,10 @@
+     <recent_temporary>
+       <list>
+         <item itemvalue="Python.calendar" />
++        <item itemvalue="Python.3Homework " />
++        <item itemvalue="Python.2Homework improved calculator (1)" />
+         <item itemvalue="Python.1homework калькулятор" />
+         <item itemvalue="Python.больше или меньше" />
+-        <item itemvalue="Python.1" />
+-        <item itemvalue="Python.фдылова" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -160,6 +167,30 @@
+       <option name="presentableId" value="Default" />
+       <updated>1607768937645</updated>
+     </task>
++    <task id="LOCAL-00001" summary="commit">
++      <created>1608197604775</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1608197604775</updated>
++    </task>
++    <option name="localTasksCounter" value="2" />
+     <servers />
+   </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
++    <option name="oldMeFiltersMigrated" value="true" />
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="commit" />
++    <option name="LAST_COMMIT_MESSAGE" value="commit" />
++  </component>
+ </project>
+\ No newline at end of file
+Index: 1homework калькулятор.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>a = input(\"Введите первое число: \")\r\nb = input(\"Введите второе число: \")\r\n\r\nadi = input(\"выберите какой знак будете использовать +, -, /, *, :\")\r\n\r\nif a == str():\r\n         adi == \"+ - * /\"\r\n         print(\"не получилось\")\r\nelif b == str():\r\n            adi = \"+ - * /\"\r\n            print(\"влдоа\")\r\nelif adi != \"+. -. *. /\":\r\n            print(\";alkdjf\")\r\nelif adi == \"+\":\r\n        c = float(a) + float(b)\r\n        print( c )\r\n        print(\"спасибо\")\r\n\r\nelif adi == \"-\":\r\n        c = float(a) - float(b)\r\n        print( c )\r\n        print(\"спасибо \")\r\n\r\nelif adi == \"*\":\r\n        c = float(a) * float(b)\r\n        print( c )\r\n        print(\"спасибо \")\r\nelif adi == \"/\":\r\n        c = float(a) / float(b)\r\n        print( c)\r\n        print(\"спасибо \")\r\n\r\n#print(\"\\n Введен неправильный символ,\", \"попытайтесь еще раз-_-\")\r\n\r\n\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/1homework калькулятор.py b/1homework калькулятор.py
+--- a/1homework калькулятор.py	(revision 4bfd19763ea67d92c25701167c429aa4966946ca)
++++ b/1homework калькулятор.py	(date 1608730134801)
+@@ -1,17 +1,11 @@
+-a = input("Введите первое число: ")
++a = float(input("Введите первое число: "))
+ b = input("Введите второе число: ")
+ 
+ adi = input("выберите какой знак будете использовать +, -, /, *, :")
+ 
+-if a == str():
+-         adi == "+ - * /"
+-         print("не получилось")
+-elif b == str():
+-            adi = "+ - * /"
+-            print("влдоа")
+-elif adi != "+. -. *. /":
+-            print(";alkdjf")
+-elif adi == "+":
++
++
++if adi == "+":
+         c = float(a) + float(b)
+         print( c )
+         print("спасибо")
+@@ -30,6 +24,7 @@
+         print( c)
+         print("спасибо ")
+ 
++
+ #print("\n Введен неправильный символ,", "попытайтесь еще раз-_-")
+ 
+ 
+Index: 3Homework .py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/3Homework .py b/3Homework .py
+new file mode 100644
+--- /dev/null	(date 1608838258661)
++++ b/3Homework .py	(date 1608838258661)
+@@ -0,0 +1,53 @@
++
++while True:
++    try:
++
++        a = float(input("введите 1 чилсо,: "))
++        adi = input("выберите какой знак будете использовать +, -, /, *, :")
++        b = float(input("введите 2 число: "))
++
++        if adi == "+":
++            c = a + b
++            print(c)
++        elif adi == "-":
++            c = a - b
++            print(c)
++        elif adi == "/":
++            c = a / b
++            print(c)
++        elif adi == "*":
++            c = a * b
++            print(c)
++        else:
++            print("введен неправельный знак")
++
++        d = input("Если хотите продолжить калькулятор нажмите Enter,"
++                      "Но если хотите выйти напишите exit: ")
++        if d == "exit":
++            break
++
++    except ValueError:
++        a = float(input("введите 1 чилсо!!!!!!, :"))
++        adi = input("выберите знак +, -, /, *,: ")
++        b = float(input("введите 2 число!!!!,: "))
++
++        if adi == "+":
++            c = a + b
++            print(c)
++        elif adi == "-":
++            c = a - b
++            print(c)
++        elif adi == "/":
++            c = a / b
++            print(c)
++        elif adi == "*":
++            c = a * b
++            print(c)
++        else:
++            print("введен неправельный знак")
++
++        d = input("Если хотите продолжить калькулятор нажмите Enter,"
++                  "Но если хотите выйти напишите exit: ")
++        if d == "exit":
++            break
++
+Index: calendar.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>print(\"Select operation.\")\r\nprint(\"1.Add\")\r\nprint(\"2.Subtract\")\r\nprint(\"3.Multiply\")\r\nprint(\"4.Divide\")\r\n\r\n\r\nchoice = input(\"Enter choice(1/2/3/4): \")\r\n\r\n\r\n\r\nintegero = '1234567890'\r\ndef check(num1, num2):\r\n    if num1 and num2 not in integero or num1 not in integero or num2 not in integero:\r\n        print('not int')\r\n        breakpoint()\r\n    if choice == '1':\r\n        print(float(num1) + float(num2))\r\n        breakpoint()\r\n    elif choice == '2':\r\n        print(float(num1) - float(num2))\r\n        breakpoint()\r\n    elif choice == '3':\r\n        print(float(num1) * float(num2))\r\n        breakpoint()\r\n    elif choice == '4':\r\n        print(float(num1) / float(num2))\r\n        breakpoint()\r\n    elif choice != '1' or '2' or '3' or '4':\r\n        print('choice error')\r\n        breakpoint()\r\n    print('calculator done')\r\n\r\ncheck(input(), input())
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/calendar.py b/calendar.py
+--- a/calendar.py	(revision 4bfd19763ea67d92c25701167c429aa4966946ca)
++++ b/calendar.py	(date 1608838682389)
+@@ -1,34 +1,34 @@
+-print("Select operation.")
+-print("1.Add")
+-print("2.Subtract")
+-print("3.Multiply")
+-print("4.Divide")
+-
+-
+-choice = input("Enter choice(1/2/3/4): ")
+-
++def calculator(num1, num2, operation):
++    if num1 != '':
++        if operation != '':
++            if num2 != '':
++                if operation == "+":
++                    return num1 + num2
++                elif operation == "-":
++                    return num1 - num2
++                elif operation == "/":
++                    return num1 / num2
++                elif operation == "*":
++                    return num1 * num2
++                else:
++                    return "Введите одну из предложеных операций!!"
++            else:
++                return "Введите второе число!"
++        else:
++            return "Введите операцию!"
++    else:
++        return "Введите первое число!"
+ 
+ 
+-integero = '1234567890'
+-def check(num1, num2):
+-    if num1 and num2 not in integero or num1 not in integero or num2 not in integero:
+-        print('not int')
+-        breakpoint()
+-    if choice == '1':
+-        print(float(num1) + float(num2))
+-        breakpoint()
+-    elif choice == '2':
+-        print(float(num1) - float(num2))
+-        breakpoint()
+-    elif choice == '3':
+-        print(float(num1) * float(num2))
+-        breakpoint()
+-    elif choice == '4':
+-        print(float(num1) / float(num2))
+-        breakpoint()
+-    elif choice != '1' or '2' or '3' or '4':
+-        print('choice error')
+-        breakpoint()
+-    print('calculator done')
+-
+-check(input(), input())
+\ No newline at end of file
++try:
++    n1 = int(input("Введите первое число"))
++    op = input("Введите математический знак:\n + для сложения чисел,"
++               "\n  - для вычитания чисел, \n / для деления чисел, \n * для умножения чисел")
++    n2 = int((input("Введите второе число")))
++    print(type(n1), type(n2))
++except:
++    n1 = int(input("ВВедите число а не строку!!!"))
++    op = input("Введите математический знак:\n + для сложения чисел,"
++               "\n  - для вычитания чисел, \n / для деления чисел, \n * для умножения чисел")
++    n2 = int(input("ВВедите число а не строку!!!!"))
++    print(type(n2), type(n1))
+\ No newline at end of file
