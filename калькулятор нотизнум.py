@@ -23,16 +23,16 @@ number_1 = input("Enter first number: ")
 number_2 = input("Enter second number: ")
 
 if operation == "1":
-    print(number_1 + "+" + number_2 + "=" + add(number_1, number_2))
+    print(float(number_1 + "+" + number_2 + "=" + add(number_1, number_2)))
 
 if operation == "2":
-    print(number_1 + "-" + number_2 + "=" + subtract(number_1, number_2))
+    print(float(number_1 + "-" + number_2 + "=" + subtract(number_1, number_2)))
 
 if operation == "3":
-    print(number_1) + "*" + number_2 + "=" + multiply(number_1, number_2)
+    print(float(number_1 + "*" + number_2 + "=" + multiply(number_1, number_2)))
 
 if operation == "4":
-    print(number_1 + "/" + number_2 + "=" + divide(number_1, number_2))
+    print(float(number_1 + "/" + number_2 + "=" + divide(number_1, number_2)))
 if operation == '5':
     print(give_string(number_1, number_2))
 

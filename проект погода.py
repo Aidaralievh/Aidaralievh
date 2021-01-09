@@ -1,12 +1,31 @@
-import turtle
+while True:
+    try:
 
-t = turtle.Turtle()
+        a = float(input("введите 1 чилсо: "))
+        adi = input("какой знак использовать +, -, /, *, :")
+        b = float(input("введите 2 число: "))
 
-# taking radius of initial radius
-r = 10
+        if adi == "+":
+            c = a + b
+            print(c)
+        elif adi == "-":
+            c = a - b
+            print(c)
+        elif adi == "/":
+            c = a / b
+            print(c)
+        elif adi == "*":
+            c = a * b
+            print(c)
+        else:
+            print("введен неправельный знак")
 
-# Loop for printing spiral circle
-for i in range(100):
-    t.circle(r + i, 45)
+        d = input("Если хотите продолжить калькулятор нажмите Enter,"
+                      "Но если хотите выйти напишите exit: ")
+        if d == "exit":
+            break
 
-turtle.exitonclick()
+    except ValueError:
+        print('type integer, not string , ok?')
+
+

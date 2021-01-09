@@ -27,7 +27,7 @@ while True:
             break
 
     except ValueError:
-        a = float(input("введите 1 чилсо!!!!!!, :"))
+        a = float(input("idi nah :"))
         adi = input("выберите знак +, -, /, *,: ")
         b = float(input("введите 2 число!!!!,: "))
 
