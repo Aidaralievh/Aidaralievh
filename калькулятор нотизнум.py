@@ -1,39 +1,103 @@
-def add(a, b):
-    return a + b
+from .krestiki_noliki import positions, board, x_list, o_list, win_positions
 
-def subtract(a, b):
-    return a - b
 
-def multiply(a, b):
-    return a * b
+theBoard = {'7': ' ', '8': ' ', '9': ' ',
+            '4': ' ', '5': ' ', '6': ' ',
+            '1': ' ', '2': ' ', '3': ' '}
 
-def divide(a, b):
-    return a/b
-def give_string(a, b):
-    return a, b
-print("Enter 1 for addition: ")
-print("Enter 2 for subtraction: ")
-print("Enter 3 for multiplication: ")
-print("Enter 4 for division: ")
-print('Enter 5 for return string: ')
+board_keys = []
 
-operation = input(' ')
+for key in theBoard:
+    board_keys.append(key)
 
-number_1 = input("Enter first number: ")
-number_2 = input("Enter second number: ")
 
-if operation == "1":
-    print(float(number_1 + "+" + number_2 + "=" + add(number_1, number_2)))
 
-if operation == "2":
-    print(float(number_1 + "-" + number_2 + "=" + subtract(number_1, number_2)))
+def printBoard(board):
+    print('_____')
+    print(board['7'] + '|' + board['8'] + '|' + board['9'])
+    print('_____')
+    print(board['4'] + '|' + board['5'] + '|' + board['6'])
+    print('_____')
+    print(board['1'] + '|' + board['2'] + '|' + board['3'])
+    print('_____')
 
-if operation == "3":
-    print(float(number_1 + "*" + number_2 + "=" + multiply(number_1, number_2)))
 
-if operation == "4":
-    print(float(number_1 + "/" + number_2 + "=" + divide(number_1, number_2)))
-if operation == '5':
-    print(give_string(number_1, number_2))
+def game():
+    turn = 'X'
+    count = 0
 
+    for i in range(10):
+        printBoard(theBoard)
+        print("It's your turn," + turn + ".Move to which place?")
+
+        move = input()
+
+        if theBoard[move] == ' ':
+            theBoard[move] = turn
+            count += 1
+        else:
+            print("That place is already filled.\nMove to which place?")
+            continue
+
+        if count >= 5:
+            if theBoard['7'] == theBoard['8'] == theBoard['9'] != ' ':
+                printBoard(theBoard)
+                print("\nGame Over.\n")
+                print(" **** " + turn + " won. ****")
+                break
+            elif theBoard['4'] == theBoard['5'] == theBoard['6'] != ' ':
+                printBoard(theBoard)
+                print("\nGame Over.\n")
+                print(" **** " + turn + " won. ****")
+                break
+            elif theBoard['1'] == theBoard['2'] == theBoard['3'] != ' ':
+                printBoard(theBoard)
+                print("\nGame Over.\n")
+                print(" **** " + turn + " won. ****")
+                break
+            elif theBoard['1'] == theBoard['4'] == theBoard['7'] != ' ':
+                printBoard(theBoard)
+                print("\nGame Over.\n")
+                print(" **** " + turn + " won. ****")
+                break
+            elif theBoard['2'] == theBoard['5'] == theBoard['8'] != ' ':
+                printBoard(theBoard)
+                print("\nGame Over.\n")
+                print(" **** " + turn + " won. ****")
+                break
+            elif theBoard['3'] == theBoard['6'] == theBoard['9'] != ' ':
+                printBoard(theBoard)
+                print("\nGame Over.\n")
+                print(" **** " + turn + " won. ****")
+                break
+            elif theBoard['7'] == theBoard['5'] == theBoard['3'] != ' ':
+                printBoard(theBoard)
+                print("\nGame Over.\n")
+                print(" **** " + turn + " won. ****")
+                break
+            elif theBoard['1'] == theBoard['5'] == theBoard['9'] != ' ':
+                printBoard(theBoard)
+                print("\nGame Over.\n")
+                print(" **** " + turn + " won. ****")
+                break
+
+
+        if count == 9:
+            print("\nGame Over.\n")
+            print("It's a Tie!!")
+
+        if turn == 'X':
+            turn = 'O'
+        else:
+            turn = 'X'
+
+    restart = input("Do want to play Again?(y/n)")
+    if restart == "y" or restart == "Y":
+        for key in board_keys:
+            theBoard[key] = " "
+
+        game()
+
+
+game()
 

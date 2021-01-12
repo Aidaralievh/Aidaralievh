@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ff4f638-0cc7-4de7-b583-132f5ae411db" name="Default Changelist" comment="commit -m &quot;3Homework&quot;">
-      <change afterPath="$PROJECT_DIR$/4Homework.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lkjh;k.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/praktika.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/калькулятор.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_12_2020_17_30_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_12_2020_17_30__Default_Changelist_.xml" beforeDir="false" />
+    <list default="true" id="5ff4f638-0cc7-4de7-b583-132f5ae411db" name="Default Changelist" comment="commit -m &quot;5Homework&quot;">
+      <change afterPath="$PROJECT_DIR$/example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krestiki noliki vs comp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krestiki_noliki.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wifi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3Homework .py" beforeDir="false" afterPath="$PROJECT_DIR$/3Homework .py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1homework калькулятор.py" beforeDir="false" afterPath="$PROJECT_DIR$/1homework калькулятор.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/calendar.py" beforeDir="false" afterPath="$PROJECT_DIR$/calendar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/проект погода.py" beforeDir="false" afterPath="$PROJECT_DIR$/проект погода.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/фдылова.py" beforeDir="false" afterPath="$PROJECT_DIR$/калькулятор нотизнум.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/формулы.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/калькулятор нотизнум.py" beforeDir="false" afterPath="$PROJECT_DIR$/калькулятор нотизнум.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +44,8 @@
       <recent name="D:\программы python" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.lkjh;k">
-    <configuration name="Имя при помощю Turtle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.krestiki noliki vs comp">
+    <configuration name="Questions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -59,11 +53,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Имя при помощю Turtle.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/Questions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -72,7 +66,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="калькулятор нотизнум" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="krestiki noliki vs comp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -84,7 +78,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/калькулятор нотизнум.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/krestiki noliki vs comp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -93,7 +87,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="3Homework " type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="krestiki_noliki" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -105,7 +99,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3Homework .py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/krestiki_noliki.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -114,7 +108,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4Homework" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -122,11 +116,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4Homework.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -135,7 +129,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lkjh;k" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="xxsubtype" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -143,11 +137,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/AppData/Local/JetBrains/PyCharmCE2020.3/python_stubs/303038793" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lkjh;k.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/AppData/Local/JetBrains/PyCharmCE2020.3/python_stubs/303038793/xxsubtype.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.lkjh;k" />
-        <item itemvalue="Python.калькулятор нотизнум" />
-        <item itemvalue="Python.3Homework " />
-        <item itemvalue="Python.4Homework" />
-        <item itemvalue="Python.Имя при помощю Turtle" />
+        <item itemvalue="Python.krestiki noliki vs comp" />
+        <item itemvalue="Python.xxsubtype" />
+        <item itemvalue="Python.krestiki_noliki" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.Questions" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608895989954</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit -m &quot;5Homework&quot;">
+      <created>1610187594379</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610187594407</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,6 +208,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
     <MESSAGE value="commit -m &quot;3Homework&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit -m &quot;3Homework&quot;" />
+    <MESSAGE value="commit -m &quot;5Homework&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit -m &quot;5Homework&quot;" />
   </component>
 </project>
