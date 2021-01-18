@@ -2,7 +2,7 @@ board = [' ' for x in range(10)]
 
 
 def insert_letter(pos, ):
-    side = input('')
+    side = input('введите сторону')
     board[pos] = side
 
 
@@ -130,3 +130,4 @@ while True:
         main()
     else:
         break
+

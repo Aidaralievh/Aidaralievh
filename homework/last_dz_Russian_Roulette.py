@@ -1,28 +1,22 @@
 import random
-import os
-import sys
 
-chambers = input("Please enter the number of chambers (default = 6): ")
+while True:
+    bullet_position = 2
 
-if not chambers:
-    chambers = 5
 
-elif not chambers.isdigit():
-    quit("Invalid number of chambers!")
-
-fatal_bullet = random.randint(1, int(chambers))
-
-for x in range(1, int(chambers) + 1):
-    input("Press enter to pull the trigger! ")
-    if x == fatal_bullet:
-        print("You just got served!")
-        print("Game Over")
-        start_again = input("Do you want to start again? (y/n): ")
-        if start_again and start_again.lower()[0] == "y":
-            os.execv(sys.executable, [sys.executable] + sys.argv)
-            continue
+    def fire_gun():
+        camber_position = random.randint(1, 6)
+        print(camber_position)
+        if camber_position == bullet_position:
+            print("you are dead!")
         else:
-            break
-    print("You will live to see another day")
+            print("keep playing!")
+
+    answer = input('Do you want to play again? (Y/N)')
+    if answer.lower() == 'y' or answer.lower() == 'yes':
+        fire_gun()
+    else:
+        break
 
 
+print(fire_gun())
