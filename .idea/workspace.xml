@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ff4f638-0cc7-4de7-b583-132f5ae411db" name="Default Changelist" comment="commit">
+      <change afterPath="$PROJECT_DIR$/2_Semester/Homework/1_homework_guess_the_num.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Parsing/Parsing_animevost_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Parsing/Parsing_animevost_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Parsing/Parsing_animevost_3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/3Homework_calculator_try_except .py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/3Homework_calculator_try_except .py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/last_dz_Russian_Roulette.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/last_dz_Russian_Roulette.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/noughts_and_crosses_vs_comp.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/noughts_and_crosses_vs_comp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foul_copy/rough_copy_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/foul_copy/rough_copy_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foul_copy/rough_copy_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/foul_copy/rough_copy_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foul_copy/rough_copy_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/foul_copy/rough_copy_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/1homework калькулятор.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Semester/homework/1homework калькулятор.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/2Homework improved calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Semester/homework/2Homework improved calculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/3Homework_calculator_try_except .py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Semester/homework/3Homework_calculator_try_except .py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/4Home_work_Bulls_Cows.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Semester/homework/4Home_work_Bulls_Cows.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/last_dz_Russian_Roulette.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Semester/homework/last_dz_Russian_Roulette.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/noughts_and_crosses_vs_comp.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Semester/homework/noughts_and_crosses_vs_comp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/self_study/name_with_turtle.py" beforeDir="false" afterPath="$PROJECT_DIR$/self_study/name_with_turtle.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +32,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Parsing/Parsing_animevost_1.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1lYLAk1JxMKONfS4NRtpYAs2QZM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -42,14 +56,15 @@
       <recent name="D:\программы python" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\Desktop\PycharmProjects\pythonProject\1_Semester" />
       <recent name="C:\Users\Lenovo\Desktop\PycharmProjects\pythonProject\Python_file" />
       <recent name="C:\Users\Lenovo\Desktop\PycharmProjects\pythonProject\homework" />
       <recent name="C:\Users\Lenovo\Desktop\PycharmProjects\pythonProject\self_study" />
       <recent name="C:\Users\Lenovo\Desktop\PycharmProjects\pythonProject\codingbat\warm_up_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.last_dz_Russian_Roulette (1)">
-    <configuration name="3Homework_calculator_try_except " type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.1_homework_guess_the_num">
+    <configuration name="1_homework_guess_the_num" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -57,11 +72,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2_Semester/Homework" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework/3Homework_calculator_try_except .py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2_Semester/Homework/1_homework_guess_the_num.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -70,7 +85,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="last_dz_Russian_Roulette (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Parsing_animevost_1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -78,11 +93,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Parsing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework/last_dz_Russian_Roulette.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Parsing/Parsing_animevost_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -91,7 +106,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="name_with_turtle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Parsing_animevost_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -99,32 +114,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/self_study" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Parsing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/self_study/name_with_turtle.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="noughts_and_crosses_vs_comp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework/noughts_and_crosses_vs_comp.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Parsing/Parsing_animevost_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,13 +148,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="rough_copy_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/foul_copy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foul_copy/rough_copy_3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.last_dz_Russian_Roulette (1)" />
+        <item itemvalue="Python.1_homework_guess_the_num" />
         <item itemvalue="Python.rough_copy_2" />
-        <item itemvalue="Python.name_with_turtle" />
-        <item itemvalue="Python.noughts_and_crosses_vs_comp" />
-        <item itemvalue="Python.3Homework_calculator_try_except " />
+        <item itemvalue="Python.rough_copy_3" />
+        <item itemvalue="Python.Parsing_animevost_2" />
+        <item itemvalue="Python.Parsing_animevost_1 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610964646923</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="commit">
+      <created>1610988714543</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1610988714543</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

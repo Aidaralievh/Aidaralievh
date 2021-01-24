@@ -8,7 +8,6 @@ t.fd(150)
 t.left(180)
 t.down()
 
-
 t.left(80)
 t.forward(90)
 t.right(160)
@@ -45,7 +44,6 @@ t.left(45)
 t.fd(35)
 t.left(135)
 t.down()
-
 
 t.fd(75)
 t.right(180)
@@ -94,7 +92,5 @@ t.left(90)
 t.fd(36)
 t.right(180)
 t.fd(72)
-
-
 
 turtle.exitonclick()
