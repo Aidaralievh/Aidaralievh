@@ -11,6 +11,7 @@ class Choice_of_doors:
         self.comp_choice = comp_choice
         self.leading_choice = leading_choice
 
+
     def main(self):
         print("Firts door = 1  "  "Second door = 2  "  "third door = 3  ")
         self.comp_choice = randint(1, 3)
