@@ -20,4 +20,3 @@ class Guess_num:
 
 game = Guess_num()
 game.win_or_lose()
-
