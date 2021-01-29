@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ff4f638-0cc7-4de7-b583-132f5ae411db" name="Default Changelist" comment="commit">
+      <change afterPath="$PROJECT_DIR$/2_Semester/Homework/2_homework_Rectangle_Circle_ Square.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Semester/Homework/2_homework_encapsulation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Semester/Homework/2_homework_inheritance.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Semester/Extra_Homework/1_extra_homework_Paradox_Manti_Holla.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_Semester/Extra_Homework/1_extra_homework_Paradox_Monty_Hall.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Semester/Extra_Homework/1_extra_homework_Paradox_Monty_Hall.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_Semester/Extra_Homework/1_extra_homework_Paradox_Monty_Hall.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parsing/Parsing_animevost_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Parsing/Parsing_animevost_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foul_copy/rough_copy_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/foul_copy/rough_copy_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foul_copy/rough_copy_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/foul_copy/rough_copy_4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +56,8 @@
       <recent name="C:\Users\Lenovo\Desktop\PycharmProjects\pythonProject\codingbat\warm_up_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.1_extra_homework_Paradox_Monty_Hall (1)">
-    <configuration name="1_extra_homework_Paradox_Monty_Hall (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.2_homework_inheritance">
+    <configuration name="2_homework_Rectangle_Circle_ Square" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -59,11 +65,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2_Semester/Extra_Homework" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2_Semester/Homework" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2_Semester/Extra_Homework/1_extra_homework_Paradox_Monty_Hall.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2_Semester/Homework/2_homework_Rectangle_Circle_ Square.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -72,7 +78,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1_extra_homework_Paradox_Monty_Hall" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="2_homework_encapsulation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -80,11 +86,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2_Semester/Extra_Homework" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2_Semester/Homework" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Lenovo\Desktop\PycharmProjects\pythonProject\2_Semester\Extra_Homework\1_extra_homework_Paradox_Monty_Hall.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Lenovo\Desktop\PycharmProjects\pythonProject\2_Semester\Homework\2_homework_encapsulation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="2_homework_inheritance" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2_Semester/Homework" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Lenovo\Desktop\PycharmProjects\pythonProject\2_Semester\Homework\2_homework_inheritance.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Parsing_animevost_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Parsing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Parsing/Parsing_animevost_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -114,55 +162,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="rough_copy_4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/foul_copy" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foul_copy/rough_copy_4.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="rough_copy_5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/foul_copy" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foul_copy/rough_copy_5.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.1_extra_homework_Paradox_Monty_Hall (1)" />
-        <item itemvalue="Python.rough_copy_4" />
-        <item itemvalue="Python.1_extra_homework_Paradox_Monty_Hall" />
+        <item itemvalue="Python.2_homework_inheritance" />
         <item itemvalue="Python.rough_copy_2" />
-        <item itemvalue="Python.rough_copy_5" />
+        <item itemvalue="Python.2_homework_Rectangle_Circle_ Square" />
+        <item itemvalue="Python.2_homework_encapsulation" />
+        <item itemvalue="Python.Parsing_animevost_2" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611749330297</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="commit">
+      <created>1611750986806</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1611750986806</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

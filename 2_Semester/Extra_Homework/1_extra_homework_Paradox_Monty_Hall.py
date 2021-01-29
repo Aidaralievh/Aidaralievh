@@ -60,8 +60,6 @@ class Monty:
             print('revealed door: ', revealed_door)
 
 
-
-
         option = input('one of the door revealed, and it is not prize door, '
                        'do you want to change your mind: ')
         if option == 'n':
