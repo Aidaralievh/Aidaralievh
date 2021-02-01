@@ -3,7 +3,7 @@ class PasswordManager:
     def __init__(self):
         self.old_passwords = ['asdfasd', '1232134123', 'asdfg']
         self.password = input('type new password: ')
-        self.password2 = input('enter the num')
+        self.password2 = input('Enter the new password again: ')
 
     def set_password(self):
         self.old_passwords.append(self.password)

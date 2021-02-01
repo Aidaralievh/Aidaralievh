@@ -1,20 +1,13 @@
-from random import *
 
-n = randint(1, 3)
-list_door = [1, 2, 3]
 
-list_door.remove(n)
-print(n)
-print(list_door)
 
-leading = choice(list_door)
-print(leading)
-list_door.remove(leading)
-list_door.append(n)
-print(list_door)
+time = int(input('Enter a number: '))
 
-human = int(input("Введите число: "))
-if leading == n:
-    print("ты выйграл машину")
-else:
-    print("ты проиграл")
+
+def con_sec_to_hour():
+    print(f'{time // 3600}:{time // 60}:{time % 60}')
+    if time == 60:
+        return time = 0
+
+
+con_sec_to_hour()
