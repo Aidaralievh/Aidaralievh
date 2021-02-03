@@ -1,13 +1,3 @@
-
-
-
-time = int(input('Enter a number: '))
-
-
-def con_sec_to_hour():
-    print(f'{time // 3600}:{time // 60}:{time % 60}')
-    if time == 60:
-        return time = 0
-
-
-con_sec_to_hour()
+'name_link': i.find('div', class_='shortstroyHead').find('a').get('href'),
+'ani_img': i.find('div', class_='shortstoryContent').find('img').get('src'),
+"short_story": i.find("div", id_="shortstoryContent").get_text(strip=True),

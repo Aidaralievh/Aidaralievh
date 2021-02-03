@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ff4f638-0cc7-4de7-b583-132f5ae411db" name="Default Changelist" comment="2_homework">
-      <change afterPath="$PROJECT_DIR$/2_Semester/Homework/3_homework_Converter_time.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Semester/Homework/3_homework_Matrix.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Semester/Homework/3_homework_Paradox_MontyHall.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Semester/Homework/3_homework_PasswordManager.py" afterDir="false" />
+    <list default="true" id="5ff4f638-0cc7-4de7-b583-132f5ae411db" name="Default Changelist" comment="3_homework">
+      <change afterPath="$PROJECT_DIR$/codingbat/warm_up_1/pos_neg.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foul_copy/rough_copy_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/foul_copy/rough_copy_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Semester/Homework/3_homework_Matrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_Semester/Homework/3_homework_Matrix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Semester/Homework/3_homework_Paradox_MontyHall.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_Semester/Homework/3_homework_Paradox_MontyHall.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parsing/Parsing_animevost_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Parsing/Parsing_animevost_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parsing/Parsing_animevost_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Parsing/Parsing_animevost_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parsing/Parsing_animevost_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Parsing/Parsing_animevost_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingbat/warm_up_1/diff21.py" beforeDir="false" afterPath="$PROJECT_DIR$/codingbat/warm_up_1/2_diff21.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingbat/warm_up_1/monkey_trouble.py" beforeDir="false" afterPath="$PROJECT_DIR$/codingbat/warm_up_1/3_monkey_trouble.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingbat/warm_up_1/near_hundred.py" beforeDir="false" afterPath="$PROJECT_DIR$/codingbat/warm_up_1/4_.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingbat/warm_up_1/parrot_trouble.py" beforeDir="false" afterPath="$PROJECT_DIR$/codingbat/warm_up_1/5_parrot_trouble.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingbat/warm_up_1/sleeep_in.py" beforeDir="false" afterPath="$PROJECT_DIR$/codingbat/warm_up_1/1_sleeep_in.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foul_copy/rough_copy_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/foul_copy/rough_copy_4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/foul_copy/rough_copy_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/foul_copy/rough_copy_5.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/foul_copy/rough_copy_6.py" beforeDir="false" afterPath="$PROJECT_DIR$/foul_copy/rough_copy_6.py" afterDir="false" />
     </list>
@@ -56,7 +63,7 @@
       <recent name="C:\Users\Lenovo\Desktop\PycharmProjects\pythonProject\codingbat\warm_up_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.3_homework_Matrix">
+  <component name="RunManager" selected="Python.Parsing_animevost_1">
     <configuration name="3_homework_Converter_time" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -99,7 +106,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="3_homework_PasswordManager" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Parsing_animevost_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -107,11 +114,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2_Semester/Homework" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Parsing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2_Semester/Homework/3_homework_PasswordManager.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Parsing/Parsing_animevost_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -120,7 +127,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="rough_copy_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Parsing_animevost_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -128,11 +135,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/foul_copy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Parsing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foul_copy/rough_copy_2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Parsing/Parsing_animevost_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,7 +148,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="rough_copy_6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Parsing_animevost_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -149,11 +156,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/foul_copy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Parsing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foul_copy/rough_copy_6.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Parsing/Parsing_animevost_3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Parsing_animevost_1" />
+        <item itemvalue="Python.Parsing_animevost_2" />
+        <item itemvalue="Python.Parsing_animevost_3" />
         <item itemvalue="Python.3_homework_Matrix" />
         <item itemvalue="Python.3_homework_Converter_time" />
-        <item itemvalue="Python.rough_copy_6" />
-        <item itemvalue="Python.3_homework_PasswordManager" />
-        <item itemvalue="Python.rough_copy_2" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611956375792</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="3_homework">
+      <created>1612195336806</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1612195336806</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -278,6 +292,7 @@
     <MESSAGE value="commit -m &quot;5Homework&quot;" />
     <MESSAGE value="commit" />
     <MESSAGE value="2_homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="2_homework" />
+    <MESSAGE value="3_homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="3_homework" />
   </component>
 </project>

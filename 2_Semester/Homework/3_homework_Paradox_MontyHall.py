@@ -4,7 +4,6 @@ import random
 class MontyHall:
 
     def __init__(self):
-        self.change_door = int(input('Do you want to change the door: [0,1]'))
         self.user_choice = int(input('Enter a number: '))
         self.comp_choice = random.randint(0, 2)
         self.opened_doors = [0, 0, 0]
@@ -23,6 +22,8 @@ class MontyHall:
         print('your choice', self.opened_doors)
         print('comp choice', self.prized_doors)
         is_winner = -1
+
+        self.change_door = int(input('Do you want to change the door: [0,1]'))
 
         if self.change_door == 1:
             for i in range(3):

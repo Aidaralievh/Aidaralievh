@@ -20,16 +20,16 @@ def get_html(url, params=""):
 
 def get_content(html):
     soup = BeautifulSoup(html, "html.parser")
-    items = soup.find_all("div", id_="dle-content")
+    items = soup.find_all("div", class_='shortstory')
     cards = []
 
     for item in items:
         cards.append(
             {
-                "title": item.find("div", id_="shortstoryHead").get_text(strip=True),
-                "link_product": HOST + item.find("div", id_="shortstoryHead").find("a").get("href"),
-                "short_story": item.find("div", id_="shortstoryContent").get_text(strip=True),
-                "ani_img": HOST + item.find("div", id_="shortstoryContent").find("img").get("src"),
+                "title": item.find("div", class_="shortstoryHead").get_text(strip=True),
+                "link_product": HOST + item.find("div", class_="shortstoryHead").find("a").get("href"),
+                "short_story": item.find("div", class_="shortstoryContent").get_text(strip=True),
+                "ani_img": HOST + item.find("div", class_="shortstoryContent").find("img").get("src"),
 
             }
         )

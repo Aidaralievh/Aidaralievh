@@ -5,10 +5,9 @@ class Matrix:
     def get_matrix(self):
         counter = 0
         for i in range(self.a):
-            for j in range(self.b):
-                print(counter % 10, end=' ')
+            for j in range(self.b):                print(counter % 10, end=' ')
                 counter += 1
-            print()
+                print()
 
 
 matrix = Matrix()
