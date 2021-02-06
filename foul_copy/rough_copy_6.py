@@ -1,3 +1,9 @@
-'name_link': i.find('div', class_='shortstroyHead').find('a').get('href'),
-'ani_img': i.find('div', class_='shortstoryContent').find('img').get('src'),
-"short_story": i.find("div", id_="shortstoryContent").get_text(strip=True),
+num1 = list(input('enter the 1 num: '))
+num2 = list(input('enter the 2 num: '))
+num3 = list(input('enter the 3 num: '))
+num4 = list(input('enter the 4 num: '))
+
+
+
+
+

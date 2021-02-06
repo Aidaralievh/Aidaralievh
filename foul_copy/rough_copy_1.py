@@ -1,34 +1,13 @@
-from random import *
 
+num1 = input('enter the 1 num: ').split(' ')
+num2 = input('enter the 2 num: ').split(' ')
+num3 = input('enter the 3 num: ').split(' ')
+num4 = input('enter the 4 num: ').split(' ')
 
-class Choice_of_doors:
+a = [num1, num2, num3, num4]
 
-    def __init__(self, first_door, second_door, third_door, human_choice, comp_choice, leading_choice):
-        self.first_door = first_door
-        self.second_door = second_door
-        self.third_door = third_door
-        self.human_choice = human_choice
-        self.comp_choice = comp_choice
-        self.leading_choice = leading_choice
-
-
-    def main(self):
-        print("Firts door = 1  "  "Second door = 2  "  "third door = 3  ")
-        self.comp_choice = randint(1, 3)
-        self.doors = [1, 2, 3]
-        self.human_choice = int(input("Enter your doors 1-3: "))
-        self.doors.remove(self.comp_choice)
-        self.doors.remove(self.human_choice)
-
-
-        self.leading = choice(self.doors)
-
-        self.doors.remove(self.leading)
-        self.doors.append(self.comp_choice)
-
-        print("comp_choice,", self.comp_choice)
-        print("human_choice", self.human_choice)
-        print("leading choice", self.leading)
-
-
-door = Choice_of_doors()
+for i in range(0, (a) - 1):
+    for j in range(0, (a) - i - 1):
+        if a[j] > a[j + 1]:
+            a[j], a[j + 1] = a[j + 1], a[j]
+print(a)
