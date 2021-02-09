@@ -19,7 +19,7 @@ def get_html(url):
 def get_content(html):
     soup = BeautifulSoup(html, 'html.parser')
     items = soup.find_all('div', class_='desktop-rating-selection-film-item')
-    # comps = []
+    comps = []
     print(items)
 
     # for item in items:
@@ -29,7 +29,7 @@ def get_content(html):
     # comps.append(name),
     # comps.append(link),
     # comps.append(src)
-
+    #
     # print(comps)
 
 
