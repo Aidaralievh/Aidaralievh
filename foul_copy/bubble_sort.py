@@ -1,3 +1,4 @@
+
 num = int(input())
 l = []
 for x in range(num):

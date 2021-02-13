@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ff4f638-0cc7-4de7-b583-132f5ae411db" name="Default Changelist" comment="4_homework">
-      <change afterPath="$PROJECT_DIR$/Parsing/Parsing_5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Parsing/Parsing_animevost_4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foul_copy/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foul_copy/ought=_copy_10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foul_copy/rought=_copy_7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foul_copy/rought_copy_8.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Нейро_сеть/1..py" afterDir="false" />
+    <list default="true" id="5ff4f638-0cc7-4de7-b583-132f5ae411db" name="Default Changelist" comment="5_homework">
+      <change afterPath="$PROJECT_DIR$/2_Semester/Homework/4_Counting_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Semester/Homework/5_homework.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Semester/Homework/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Semester/Homework/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Semester/Homework/text" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foul_copy/Radix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foul_copy/bubble_sort.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Parsing/Parsing_animevost_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Parsing/Parsing_animevost_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Semester/Homework/Radix.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foul_copy/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/foul_copy/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foul_copy/ought=_copy_10.py" beforeDir="false" afterPath="$PROJECT_DIR$/foul_copy/ought=_copy_10.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/foul_copy/rough_copy_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/foul_copy/rough_copy_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foul_copy/rough_copy_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/foul_copy/rough_copy_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foul_copy/rough_copy_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/foul_copy/rough_copy_3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/foul_copy/rough_copy_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/foul_copy/rough_copy_4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foul_copy/rough_copy_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/foul_copy/rough_copy_5.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/foul_copy/rough_copy_6.py" beforeDir="false" afterPath="$PROJECT_DIR$/foul_copy/rough_copy_6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foul_copy/rought_copy_8.py" beforeDir="false" afterPath="$PROJECT_DIR$/foul_copy/rought_copy_8.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,15 +62,57 @@
       <recent name="D:\программы python" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\Desktop\PycharmProjects\pythonProject\foul_copy" />
       <recent name="C:\Users\Lenovo\Desktop\PycharmProjects\pythonProject\1_Semester" />
       <recent name="C:\Users\Lenovo\Desktop\PycharmProjects\pythonProject\Python_file" />
       <recent name="C:\Users\Lenovo\Desktop\PycharmProjects\pythonProject\homework" />
       <recent name="C:\Users\Lenovo\Desktop\PycharmProjects\pythonProject\self_study" />
-      <recent name="C:\Users\Lenovo\Desktop\PycharmProjects\pythonProject\codingbat\warm_up_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.rough_copy_5">
-    <configuration name="ought=_copy_10" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.4_Counting_sort">
+    <configuration name="4_Counting_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2_Semester/Homework" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2_Semester/Homework/4_Counting_sort.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="5_homework" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2_Semester/Homework" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2_Semester/Homework/5_homework.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Radix (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -82,7 +124,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foul_copy/ought=_copy_10.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foul_copy/Radix.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -112,7 +154,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="rough_copy_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="rought_copy_8" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -124,49 +166,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foul_copy/rough_copy_3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="rough_copy_4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/foul_copy" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foul_copy/rough_copy_4.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="rough_copy_5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/foul_copy" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foul_copy/rough_copy_5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foul_copy/rought_copy_8.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -177,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.rough_copy_5" />
-        <item itemvalue="Python.ought=_copy_10" />
+        <item itemvalue="Python.4_Counting_sort" />
+        <item itemvalue="Python.Radix (1)" />
+        <item itemvalue="Python.rought_copy_8" />
+        <item itemvalue="Python.5_homework" />
         <item itemvalue="Python.rough_copy_1" />
-        <item itemvalue="Python.rough_copy_3" />
-        <item itemvalue="Python.rough_copy_4" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612605693141</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="5_homework">
+      <created>1612906252735</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1612906252735</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -320,6 +327,7 @@
     <MESSAGE value="2_homework" />
     <MESSAGE value="3_homework" />
     <MESSAGE value="4_homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="4_homework" />
+    <MESSAGE value="5_homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="5_homework" />
   </component>
 </project>
