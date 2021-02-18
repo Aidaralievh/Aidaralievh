@@ -1,23 +1,25 @@
-class Sort:
-    def __init__(self):
-        self.list = [(10, 20, 30),
-                     (7, 30, 00),
-                     (23, 59, 59),
-                     (13, 30, 30)]
+inputt = open('input.txt')
+output = open('output.txt', 'w')
+read = inputt.read().split()
+a = list(map(int, read))[1:]
+h = []
+for i in range(0, len(a), 3):
+    time = a[i]*60*60 + a[i+1]*60 + a[i+2]
+    h.append(time)
 
-    def bubble_sort(self):
-        for j in range(len(self.list)):
-            swapped = False
-            i = 0
-            while i < len(self.list) - 1:
-                if self.list[i] > self.list[i + 1]:
-                    self.list[i], self.list[i + 1] = self.list[i + 1], self.list[i]
-                    swapped = True
-                i = i + 1
-            if not swapped:
-                break
-        print(self.list)
+    for f in range(0, len(h) - 1):
+        for j in range(0, len(h) - f - 1):
+            if h[j] > h[j + 1]:
+                h[j], h[j + 1] = h[j + 1], h[j]
+
+for p in h:
+    hour = (p % 86400) // 3600
+    minutes = (p % 3600) // 60
+    seconds = (p % 60)
+
+    timme = f'{hour} {minutes} {seconds}\n'
+    output.write(timme)
 
 
-sort = Sort()
-sort.bubble_sort()
+
+

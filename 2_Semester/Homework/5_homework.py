@@ -3,6 +3,8 @@ output = open('output.txt', 'w')
 read = inputt.read().split()
 a = [int(h) for h in read]
 del a[0]
+print(a)
+
 l = [0 for i in range(-100, 101)]
 for x in range(len(a)):
     num = a[x]

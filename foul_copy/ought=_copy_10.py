@@ -13,11 +13,9 @@ for i in l:
         hours = i[0] * 3600 + i[1]
     g.append(hours)
 
-
 for o in range(0, len(g) - 1):
     for j in range(0, len(g) - o - 1):
         if g[j] > g[j + 1]:
             g[j], g[j + 1] = g[j + 1], g[j]
-            g[j] = g[j] // 3600
-            g[j+1] = g[j+1] % 3600
+
 print(g)

@@ -1,8 +1,29 @@
-a = [1, 45, 33, 22, 100, 50, 179, 129, 46, 55, 128, 200, 199, 200]  # -> 0,1000
 
-for i in range(0, len(a) - 1):
-    for j in range(0, len(a) - i - 1):
-        if a[j] > a[j + 1]:
-            a[j], a[j + 1] = a[j + 1], a[j]
+
+inputt = open('input.txt')
+output = open('output.txt', 'w')
+read = inputt.read().split()
+a = [int(h) for h in read]
+del a[0]
 print(a)
 
+l = []
+for x in range(read):
+    x = [int(i) for i in inputt]
+    l.append(x)
+g = []
+
+hours = None
+
+for i in l:
+    for h in i:
+        hours = i[0] * 3600 + i[1]
+    g.append(hours)
+
+
+for o in range(0, len(g) - 1):
+    for j in range(0, len(g) - o - 1):
+        if g[j] > g[j + 1]:
+            g[j], g[j + 1] = g[j + 1], g[j]
+
+print(g)

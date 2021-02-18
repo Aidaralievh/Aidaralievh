@@ -29,4 +29,4 @@ class Sort:
 
 sort = Sort()
 sort.bubble_sort()
-# print(sort.quick_sort())
+# print(sort.quick_sort()
